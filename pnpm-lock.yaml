@@ -1,0 +1,41 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@lefthands/pkg-a': ^2.0.0
+
+dependencies:
+  '@lefthands/pkg-a': 2.0.0
+
+packages:
+
+  /@lefthands/pkg-a/1.0.1:
+    resolution: {integrity: sha512-FIpLK5XdAzFcQCCyxbQaVFPGnjfoaqU+yo5FvuFsNl3vpMJuliIhlwM0YVooZlEQE81FDlXSde34iUZtNgvR1Q==}
+    dependencies:
+      '@lefthands/pkg-b': 1.0.1
+      '@lefthands/pkg-c': 3.0.0
+    dev: false
+
+  /@lefthands/pkg-a/2.0.0:
+    resolution: {integrity: sha512-6XcwuUl4L9uLHk/VE1n8vc1ZaNlWWlzDN1oyRKVrTJj7yMVSagpRNPWaFgjY4ZD/h4i2nKwUpVtYyL/dQIW5eg==}
+    dependencies:
+      '@lefthands/pkg-b': 1.0.1
+      '@lefthands/pkg-c': 3.0.0
+    dev: false
+
+  /@lefthands/pkg-b/1.0.1:
+    resolution: {integrity: sha512-Ht9oLcDdKtNLhl6MOoalI8901h3n4s8SjoZDahiF9gfGn26pN7tI9QLAZePW7sTPxYc+ty2p0g8jpqmSCsbmNQ==}
+    dependencies:
+      '@lefthands/pkg-c': 2.0.0
+    dev: false
+
+  /@lefthands/pkg-c/2.0.0:
+    resolution: {integrity: sha512-OZYojJbUEAhZuoXb91v2Utk8FOhNMGQh0b0bRrjANjJPz10jKpbTc42GrUQoPilCoxH8sM6nofXpRCwdAZcmyA==}
+    dependencies:
+      '@lefthands/pkg-a': 1.0.1
+    dev: false
+
+  /@lefthands/pkg-c/3.0.0:
+    resolution: {integrity: sha512-8gUCtme6a2lJhOH5NVQpgEyuoqd5j+DvcsM2Y6ZsxFqrvHs9JsaMC5uUgjl7fWYn++rknJkwuzzDCAd3pIeBKg==}
+    dependencies:
+      '@lefthands/pkg-a': 1.0.1
+    dev: false
